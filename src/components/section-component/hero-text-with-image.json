@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_section_component_hero_text_with_images",
+  "info": {
+    "displayName": "Hero text with image",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "primaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "secondaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}

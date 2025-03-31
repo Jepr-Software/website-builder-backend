@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cta_defaults",
+  "info": {
+    "displayName": "Default",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "call": {
+      "type": "text"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}

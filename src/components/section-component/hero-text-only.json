@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_component_hero_text_onlies",
+  "info": {
+    "displayName": "Hero text only",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

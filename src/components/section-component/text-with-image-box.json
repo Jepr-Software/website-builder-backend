@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_section_component_text_with_image_boxes",
+  "info": {
+    "displayName": "Text with image box",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "imageDirection": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "right"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.default"
+    }
+  }
+}

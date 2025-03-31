@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_component_bento_grids",
+  "info": {
+    "displayName": "Bento grid",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bentoGridBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "boxes.bento-grid-box",
+      "max": 4,
+      "min": 4
+    }
+  }
+}

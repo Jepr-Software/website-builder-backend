@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_boxes_bento_grid_boxes",
+  "info": {
+    "displayName": "Bento grid box",
+    "icon": "chartPie"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "centerTop",
+        "centerBottom",
+        "right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "organizations",
+  "info": {
+    "singularName": "organization",
+    "pluralName": "organizations",
+    "displayName": "Organization",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "bio": {
+      "type": "richtext"
+    }
+  }
+}

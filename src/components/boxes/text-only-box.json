@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_boxes_text_only_boxes",
+  "info": {
+    "displayName": "Text only box",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

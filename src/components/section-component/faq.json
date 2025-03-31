@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_component_faqs",
+  "info": {
+    "displayName": "Faq",
+    "icon": "italic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "textOnlyBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "boxes.text-only-box",
+      "min": 3,
+      "max": 12
+    }
+  }
+}
