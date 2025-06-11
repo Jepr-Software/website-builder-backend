@@ -54,6 +54,16 @@
       },
       "type": "uid",
       "targetField": "pageTitle"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

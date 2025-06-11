@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_component_blog_image_with_texts",
+  "info": {
+    "displayName": "Blog image with text",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageDirection": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

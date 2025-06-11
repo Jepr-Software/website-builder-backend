@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_section_component_blog_content_onlies",
+  "info": {
+    "displayName": "Blog content only",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

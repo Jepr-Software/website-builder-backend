@@ -16,6 +16,9 @@
       "component": "boxes.text-only-box",
       "min": 3,
       "max": 12
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }

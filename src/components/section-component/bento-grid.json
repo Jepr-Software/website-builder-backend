@@ -13,6 +13,9 @@
       "component": "boxes.bento-grid-box",
       "max": 4,
       "min": 4
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
