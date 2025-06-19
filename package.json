@@ -11,13 +11,15 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.1.1",
-    "@strapi/plugin-users-permissions": "5.1.1",
-    "@strapi/strapi": "5.1.1",
+    "@strapi/plugin-cloud": "5.16.0",
+    "@strapi/plugin-users-permissions": "5.16.0",
+    "@strapi/provider-email-sendmail": "^5.16.0",
+    "@strapi/strapi": "5.16.0",
     "better-sqlite3": "11.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-5-sitemap-plugin": "^1.0.7",
     "strapi-plugin-webp-converter": "^1.0.4",
     "styled-components": "^6.0.0"
   },

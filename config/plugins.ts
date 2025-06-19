@@ -5,8 +5,11 @@ export default () => ({
                 128: 128,
                 256: 256,
                 384: 384,
+                420: 420,
                 512: 512,
+                640: 640,
                 768: 768,
+                920: 920,
                 1024: 1024,
                 1280: 1280,
                 1536: 1536,
@@ -23,7 +26,7 @@ export default () => ({
         enabled: true,
         config: {
             // mimeTypes that converts to WebP. Default is ['image/png', 'image/jpeg', 'image/jpg']
-            mimeTypes: undefined,
+            mimeTypes: ['image/png', 'image/jpeg', 'image/jpg'],
             options: {
                 // WebP options: https://sharp.pixelplumbing.com/api-output#webp
             },
