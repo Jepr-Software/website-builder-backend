@@ -21,9 +21,10 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "sharp": "^0.34.2",
     "strapi-5-sitemap-plugin": "^1.0.7",
-    "strapi-plugin-webp-converter": "^1.0.4",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "vibesite-strapi-plugin": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",

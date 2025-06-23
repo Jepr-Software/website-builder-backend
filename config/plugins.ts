@@ -22,13 +22,23 @@ export default () => ({
             },
         },
     },
-    'webp-converter': {
+    // 'webp-converter': {
+    //     enabled: true,
+    //     config: {
+    //         // mimeTypes that converts to WebP. Default is ['image/png', 'image/jpeg', 'image/jpg']
+    //         mimeTypes: ['image/png', 'image/jpeg', 'image/jpg'],
+    //         options: {
+    //             // WebP options: https://sharp.pixelplumbing.com/api-output#webp
+    //         },
+    //     },
+    // },
+    'vibesite-strapi-plugin': {
         enabled: true,
         config: {
-            // mimeTypes that converts to WebP. Default is ['image/png', 'image/jpeg', 'image/jpg']
             mimeTypes: ['image/png', 'image/jpeg', 'image/jpg'],
             options: {
-                // WebP options: https://sharp.pixelplumbing.com/api-output#webp
+                quality: 80, // Adjust quality as needed
+                // effort: 6, // Adjust effort as needed
             },
         },
     },
